@@ -1,6 +1,5 @@
 import resImage from "./jay-wennington-restuarant.jpg";
-
-const page = document.querySelector("#content");
+import { page } from "./loadPage";
 
 const heading = document.createElement("h1");
 heading.textContent = "The best restuarant ever";
