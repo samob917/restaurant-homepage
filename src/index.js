@@ -2,6 +2,7 @@ import { page } from "./loadPage";
 import { makeMenu } from "./menu";
 import { makeHome } from "./home";
 import { makeAbout } from "./about";
+import "./styles.css"
 
 makeHome()
 
